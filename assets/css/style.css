@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+html, body, #home {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+/*Layout*/
+nav.navbar-transparent {
+    background: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    padding: 20px 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #1ED760
+}
+.bar {
+    width: 1px;
+    background: #fff;
+    margin: 25px 15px;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+}
+.container {
+    margin: 0 auto;
+}
+/*Capa*/
+.capa {
+    text-align: center;
+    color: #1ED760;
+    margin-bottom: -100px;
+}
+.capa h1{
+    font-size: 130px;
+    font-weight: 700;
+}
+.capa p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.btn.btn-success.btn-lg{
+    border-radius: 30px;
+    color: #2D46B9;
+    padding: 15px 40px;
+    background-color: #1ED760;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+.btn.btn-success.btn-lg:hover{
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+
+/*Rodapé*/
+footer {
+    background-color: #000;
+    padding: 80px 0 20px 0;
+}
+
+.footer-foo{
+    margin-top: 60px;
+}
+footer h4{
+    font-size: 12px;
+    font-weight: 700;
+    color: #919496;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+footer .navbar-nav a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+footer .navbar-nav a:hover{
+    color: #1ED760;
+}
+.social {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+.social a img{
+    padding: 10px;
+
+}
+.col-md-2 ul li a,
+.col-md-4 ul li a {
+    line-height: 40px;
+}
+footer .navbar-nav a.ultimate-footer{
+    font-size: 12px;
+    color: #919496;
+    padding-right: 15px;
+}
+footer .navbar-nav a.ultimate-footer:hover{
+    color: #1ED760;
+}
+.ultimatef{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.copy{
+    font-size: 12px;
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+@media (max-width: 4500px) {
+    .corpo {
+        background: url('/assets/images/bursts.svg') no-repeat;
+        background-size: 165%;
+        background-position: 43% 0%;
+        justify-content: center;
+        min-height: 846px;
+        background-color: #2D46B9;
+        }
+
+
+}
+
+@media (max-width: 1500px){
+    .corpo {
+        background: url('/assets/images/bursts-tablet.svg') no-repeat;
+        background-size: 153%;
+        background-position: right 40% center;
+        justify-content: center;
+        min-height: 846px;
+        background-color: #2D46B9;
+    }
+    .capa h1 {
+        font-size: 104px;
+    }
+
+
+
+
+}
+
+@media (max-width: 765px){
+    .corpo {
+        background: url('/assets/images/bursts-mobile.svg') no-repeat;
+        background-size: 195%;
+        background-position: top 25% center;
+        justify-content: center;
+        background-color: #2D46B9;
+        height: 100vh;
+    }
+    .capa h1 {
+        font-size: 48px;
+    }
+    br {
+        display: none;
+    }
+    .capa {
+        margin-bottom: 150px;
+    }
+    .logo-bottom{
+        width: 100px;
+        margin-bottom: 50px;
+    }
+    footer h4 {
+        margin-top: 30px;
+    }
+    .social a img {
+        margin-left: -170px;
+        padding-right: 180px;
+        margin-top: 60px;
+    }
+    .bar {
+        height: 2px;
+        width: 20px;
+        background: #fff;
+        margin: 25px 15px;
+    }
+
+
+}
+
